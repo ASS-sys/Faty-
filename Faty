@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>¡Feliz Cumpleaños, Seño Faty! 🎉</title>
+  <style>
+    /* Estilos generales con fondo morado y colores pastel */
+    body {
+      margin: 0;
+      padding: 20px;
+      background: linear-gradient(135deg, #e0c3fc 0%, #8ec5fc 100%);
+      background-attachment: fixed;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      color: #333333;
+    }
+
+    /* Tarjeta principal */
+    .card {
+      background-color: #ffffff;
+      border-radius: 20px;
+      padding: 35px 30px;
+      max-width: 550px;
+      width: 100%;
+      box-shadow: 0 10px 25px rgba(118, 75, 162, 0.2);
+      text-align: center;
+      border: 3px solid #d8b4fe;
+      box-sizing: border-box;
+    }
+
+    /* Encabezados y títulos */
+    .header-emoji {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+
+    h1 {
+      color: #6b21a8;
+      font-size: 1.8rem;
+      margin-bottom: 5px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    h2 {
+      color: #a855f7;
+      font-size: 2.2rem;
+      margin-top: 0;
+      margin-bottom: 20px;
+    }
+
+    /* Contenido de la carta */
+    .content {
+      background-color: #f3e8ff;
+      padding: 25px;
+      border-radius: 15px;
+      line-height: 1.7;
+      font-size: 1.05rem;
+      color: #4a044e;
+      text-align: justify;
+      margin-bottom: 25px;
+      border-left: 5px solid #a855f7;
+    }
+
+    .content p {
+      margin-bottom: 15px;
+    }
+
+    .content p:last-child {
+      margin-bottom: 0;
+    }
+
+    /* Firma y detalles */
+    .signature {
+      font-size: 1.2rem;
+      font-weight: bold;
+      color: #6b21a8;
+      text-align: right;
+      margin-top: 15px;
+    }
+
+    .decorations {
+      font-size: 1.5rem;
+      word-spacing: 12px;
+      margin-top: 15px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <div class="header-emoji">📚✏️💜</div>
+    <h1>Para la mejor maestra del mundo</h1>
+    <h2>¡Seño Faty! 🎉✨</h2>
+
+    <div class="content">
+      <p>
+        ¡Feliz cumpleaños! 💜 Hoy es un día muy especial y quiero desearle de todo corazón que pase un día increíble al lado de sus seres queridos, rodeada de mucho amor, sonrisas y momentos inolvidables.
+      </p>
+      <p>
+        Quiero decirle que usted es una persona verdaderamente impresionante e inteligente. A su corta edad ha demostrado de una manera increíble de lo que está hecha, dejando ver su gran vocación, su talento y esa capacidad tan bonita que tiene para inspirar a los demás cada día. 
+      </p>
+      <p>
+        Que Dios la bendiga grandemente, la llene de salud y la guíe siempre por un buen camino para que cumpla muchísimos años más cosechando éxitos y alcanzando cada una de sus metas. ¡Siga siendo esa maestra tan extraordinaria! 
+      </p>
+      
+      <div class="signature">
+        Con mucho cariño,<br>
+        <strong>Kenneth</strong> 🌸
+      </div>
+    </div>
+
+    <div class="decorations">
+      🎓 📝 💐 🎒 🌟 💜
+    </div>
+  </div>
+
+</body>
+</html>
